@@ -1,0 +1,4 @@
+include ':app', ':mylibrary', ':rootlibrary'
+includeFlat 'runtime'
+include ':runtime:runtime'
+include ':runtime:runtime-no-op'

@@ -1,0 +1,78 @@
+01-13 09:10:22.133 5430-5430/? D/dalvikvm: Late-enabling CheckJNI
+01-13 09:10:22.173 5430-5430/com.example.administrator.myapplication I/Environment: getPrimaryVolume info:ApplicationInfo{42b27470 com.example.administrator.myapplication},packagename:com.example.administrator.myapplication,UserId:0
+01-13 09:10:22.183 5430-5430/com.example.administrator.myapplication D/skia: TryAndSetDefaultFont:gDefaultNormal:1540876504.
+01-13 09:10:22.183 5430-5430/com.example.administrator.myapplication D/skia: TryAndSetDefaultFont:gFirstNormal:1540876504.
+01-13 09:10:22.183 5430-5430/com.example.administrator.myapplication D/skia: TryAndSetDefaultFont:gDefaultNormal-id:1.
+01-13 09:10:22.183 5430-5430/com.example.administrator.myapplication D/skia: TryAndSetDefaultFont:gFirstNormal-id:1.
+01-13 09:10:22.183 5430-5430/com.example.administrator.myapplication D/skia: TryAndSetDefaultFont:gFamilyHead-normal-id:51.
+01-13 09:10:22.183 5430-5430/com.example.administrator.myapplication D/skia: TryAndSetDefaultFont:next-normal-id:50.
+01-13 09:10:22.183 5430-5430/com.example.administrator.myapplication D/skia: TryAndSetDefaultFont:prop-value:.
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication E/dalvikvm: Could not find class 'org.micro.freeline.hackload.ClassVerifier', referenced from method com.example.administrator.myapplication.MyApplication.<init>
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication W/dalvikvm: VFY: unable to resolve const-class 2309 (Lorg/micro/freeline/hackload/ClassVerifier;) in Lcom/example/administrator/myapplication/MyApplication;
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication D/dalvikvm: VFY: replacing opcode 0x1c at 0x000d
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication E/dalvikvm: Could not find class 'org.micro.freeline.hackload.ClassVerifier', referenced from method com.example.mylibrary.core.BaseApplication.<init>
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication W/dalvikvm: VFY: unable to resolve const-class 2309 (Lorg/micro/freeline/hackload/ClassVerifier;) in Lcom/example/mylibrary/core/BaseApplication;
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication D/dalvikvm: VFY: replacing opcode 0x1c at 0x000d
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication I/Freeline: freeline start initial process...
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication I/Freeline: freeline init application
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication E/dalvikvm: Could not find class 'android.util.ArrayMap', referenced from method com.antfortune.freeline.resources.MonkeyPatcher.monkeyPatchExistingResources
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication W/dalvikvm: VFY: unable to resolve check-cast 1911 (Landroid/util/ArrayMap;) in Lcom/antfortune/freeline/resources/MonkeyPatcher;
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication D/dalvikvm: VFY: replacing opcode 0x1f at 0x024c
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication E/dalvikvm: Could not find class 'android.util.ArrayMap', referenced from method com.antfortune.freeline.resources.MonkeyPatcher.pruneResourceCache
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication W/dalvikvm: VFY: unable to resolve const-class 1911 (Landroid/util/ArrayMap;) in Lcom/antfortune/freeline/resources/MonkeyPatcher;
+01-13 09:10:22.193 5430-5430/com.example.administrator.myapplication D/dalvikvm: VFY: replacing opcode 0x1c at 0x0057
+01-13 09:10:22.203 5430-5430/com.example.administrator.myapplication I/Freeline: start to inject dex...
+01-13 09:10:22.223 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: /data/data/com.example.administrator.myapplication/cache/temp/dex/merged.dex dex length: 327568
+01-13 09:10:22.223 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: /data/data/com.example.administrator.myapplication/cache/temp/opt/358dbbd7aa9afa6c83c9fc155e6ecb94 opt length: 4096
+01-13 09:10:22.223 5430-5430/com.example.administrator.myapplication I/dalvikvm: DexOpt: source file mod time mismatch (5878286e vs 587828fc)
+01-13 09:10:22.223 5430-5430/com.example.administrator.myapplication D/dalvikvm: ODEX file is stale or bad; removing and retrying (/data/data/com.example.administrator.myapplication/cache/temp/opt/358dbbd7aa9afa6c83c9fc155e6ecb94/merged.dex)
+01-13 09:10:22.233 5430-5430/com.example.administrator.myapplication D/dalvikvm: DexOpt: --- BEGIN 'merged.dex' (bootstrap=0) ---
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication D/dalvikvm: DexOpt: --- END 'merged.dex' (success) ---
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication D/dalvikvm: DEX prep '/data/data/com.example.administrator.myapplication/cache/temp/dex/merged.dex': copy in 5ms, rewrite 130ms
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: after opt, dex len:327568; opt len:4096
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline: find increment package
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline: start to inject resources...
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline: dynamicInfoSp: {base-res.key=/data/data/com.example.administrator.myapplication/cache/temp/base-res.jar, dynamic_opt_key=/data/data/com.example.administrator.myapplication/cache/temp/opt, dynamic_dex_dir_key=/data/data/com.example.administrator.myapplication/cache/temp/dex, dynamicTime=1484269820917}
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline: resMap: {base-res.key=/data/data/com.example.administrator.myapplication/cache/temp/base-res.jar}
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline.GradleDynamic: dynamicResPath: /data/data/com.example.administrator.myapplication/cache/temp/base-res.jar
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline.GradleDynamic: GradleDynamic apply dynamic resource successfully
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline: start to load hackload.dex...
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: /data/data/com.example.administrator.myapplication/cache/hack/hackload.dex dex length: 848
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: /data/data/com.example.administrator.myapplication/cache/hack/opt opt length: 4096
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: after opt, dex len:848; opt len:4096
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline: load hackload£¬dex size:848
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline: start to inject native lib...
+01-13 09:10:22.363 5430-5430/com.example.administrator.myapplication I/Freeline.hackNative: native lib inject process start...
+01-13 09:10:22.373 5430-5430/com.example.administrator.myapplication I/Freeline.hackNative: inject native lib success [Ljava.io.File;@42b72de8
+01-13 09:10:22.373 5430-5430/com.example.administrator.myapplication I/Freeline: freeline init server
+01-13 09:10:22.373 5430-5430/com.example.administrator.myapplication V/Activity: onCreate com.example.administrator.myapplication.MainActivity@42b73d38: Bundle[mParcelledData.dataSize=584]
+01-13 09:10:22.393 5430-5430/com.example.administrator.myapplication V/Activity: onStart com.example.administrator.myapplication.MainActivity@42b73d38
+01-13 09:10:22.393 5430-5430/com.example.administrator.myapplication V/Activity: onResume com.example.administrator.myapplication.MainActivity@42b73d38
+01-13 09:10:22.433 5430-5430/com.example.administrator.myapplication D/libEGL: loaded /vendor/lib/egl/libEGL_adreno.so
+01-13 09:10:22.443 5430-5430/com.example.administrator.myapplication D/libEGL: loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+01-13 09:10:22.443 5430-5430/com.example.administrator.myapplication D/libEGL: loaded /vendor/lib/egl/libGLESv2_adreno.so
+01-13 09:10:22.453 5430-5430/com.example.administrator.myapplication I/Adreno-EGL: <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_3.2_RB2.04.03.00.129.099_msm8226_JB_3.2_RB2__release_AU ()
+                                                                                   OpenGL ES Shader Compiler Version: 20.00.08
+                                                                                   Build Date: 03/06/14 Thu
+                                                                                   Local Branch: mybranch2706508
+                                                                                   Remote Branch: quic/jb_3.2_rb2.32
+                                                                                   Local Patches: NONE
+                                                                                   Reconstruct Branch: AU_LINUX_ANDROID_JB_3.2_RB2.04.03.00.129.099 +  NOTHING
+01-13 09:10:22.483 5430-5430/com.example.administrator.myapplication D/OpenGLRenderer: Enabling debug mode 0
+01-13 09:10:51.913 5430-5430/com.example.administrator.myapplication I/Freeline: freeline start initial process...
+01-13 09:10:51.913 5430-5430/com.example.administrator.myapplication I/Freeline: freeline init application
+01-13 09:10:51.913 5430-5430/com.example.administrator.myapplication I/Freeline: start to inject dex...
+01-13 09:10:51.913 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: /data/data/com.example.administrator.myapplication/cache/temp/dex/merged.dex dex length: 327576
+01-13 09:10:51.913 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: /data/data/com.example.administrator.myapplication/cache/temp/opt/358dbbd7aa9afa6c83c9fc155e6ecb94 opt length: 4096
+01-13 09:10:51.913 5430-5430/com.example.administrator.myapplication I/dalvikvm: DexOpt: source file mod time mismatch (587828fc vs 5878291b)
+01-13 09:10:51.913 5430-5430/com.example.administrator.myapplication D/dalvikvm: ODEX file is stale or bad; removing and retrying (/data/data/com.example.administrator.myapplication/cache/temp/opt/358dbbd7aa9afa6c83c9fc155e6ecb94/merged.dex)
+01-13 09:10:51.923 5430-5430/com.example.administrator.myapplication D/dalvikvm: DexOpt: --- BEGIN 'merged.dex' (bootstrap=0) ---
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication D/dalvikvm: DexOpt: --- END 'merged.dex' (success) ---
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication D/dalvikvm: DEX prep '/data/data/com.example.administrator.myapplication/cache/temp/dex/merged.dex': copy in 4ms, rewrite 126ms
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication I/Freeline.hackDex: after opt, dex len:327576; opt len:4096
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication I/Freeline: find increment package
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication I/Freeline: start to inject resources...
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication I/Freeline: dynamicInfoSp: {base-res.key=/data/data/com.example.administrator.myapplication/cache/temp/base-res.jar, dynamic_opt_key=/data/data/com.example.administrator.myapplication/cache/temp/opt, dynamic_dex_dir_key=/data/data/com.example.administrator.myapplication/cache/temp/dex, dynamicTime=1484269820917}
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication I/Freeline: resMap: {base-res.key=/data/data/com.example.administrator.myapplication/cache/temp/base-res.jar}
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication I/Freeline.GradleDynamic: dynamicResPath: /data/data/com.example.administrator.myapplication/cache/temp/base-res.jar
+01-13 09:10:52.053 5430-5430/com.example.administrator.myapplication A/libc: Fatal signal 7 (SIGBUS) at 0x5d424464 (code=2), thread 5430 (r.myapplication)

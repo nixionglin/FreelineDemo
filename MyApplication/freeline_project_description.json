@@ -1,0 +1,167 @@
+{
+    "android_gradle_plugin_version": "2.2.3",
+    "apk_path": "E:\\code\\FreelineTest\\MyApplication\\app\\build\\outputs\\apk\\app-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": false
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "E:\\code\\FreelineTest\\MyApplication\\app\\build\\freeline",
+    "build_directory": "E:\\code\\FreelineTest\\MyApplication\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\build-tools\\25.0.2",
+    "build_tools_version": "25.0.2",
+    "compile_sdk_directory": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platforms\\android-25",
+    "compile_sdk_version": "android-25",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.example.administrator.myapplication",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "E:\\code\\FreelineTest\\MyApplication",
+    "freeline_gradle_plugin_version": "0.8.4",
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_112",
+    "launcher": "com.example.administrator.myapplication.MainActivity",
+    "main_assets_directory": [
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\assets",
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\jniLibs",
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\jni",
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "E:\\code\\FreelineTest\\MyApplication\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\res",
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\java",
+        "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            "mylibrary"
+        ],
+        "mylibrary": [
+            "rootlibrary"
+        ],
+        "rootlibrary": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "E:\\code\\FreelineTest\\MyApplication\\app"
+        },
+        {
+            "name": "mylibrary",
+            "path": "E:\\code\\FreelineTest\\MyApplication\\mylibrary"
+        },
+        {
+            "name": "rootlibrary",
+            "path": "E:\\code\\FreelineTest\\MyApplication\\rootlibrary"
+        }
+    ],
+    "package": "com.example.administrator.myapplication",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\assets",
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\jniLibs",
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\jni",
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\res",
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\debug\\java",
+                "E:\\code\\FreelineTest\\MyApplication\\app\\src\\main\\java"
+            ]
+        },
+        "mylibrary": {
+            "main_assets_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\release\\assets",
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\release\\jniLibs",
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\release\\jni",
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\main\\jni"
+            ],
+            "main_manifest_path": "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\release\\res",
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\release\\java",
+                "E:\\code\\FreelineTest\\MyApplication\\mylibrary\\src\\main\\java"
+            ]
+        },
+        "rootlibrary": {
+            "main_assets_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\release\\assets",
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\release\\jniLibs",
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\release\\jni",
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\main\\jni"
+            ],
+            "main_manifest_path": "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\release\\res",
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\release\\java",
+                "E:\\code\\FreelineTest\\MyApplication\\rootlibrary\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "E:\\code\\FreelineTest\\MyApplication",
+    "sdk_directory": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk",
+    "use_jdk8": true
+}

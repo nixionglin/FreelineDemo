@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../runtime/MyApplication-runtime.iml" filepath="$PROJECT_DIR$/../runtime/MyApplication-runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rootlibrary/rootlibrary.iml" filepath="$PROJECT_DIR$/rootlibrary/rootlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../runtime/runtime-no-op/runtime-no-op.iml" filepath="$PROJECT_DIR$/../runtime/runtime-no-op/runtime-no-op.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../runtime/runtime/runtime-runtime.iml" filepath="$PROJECT_DIR$/../runtime/runtime/runtime-runtime.iml" />
+    </modules>
+  </component>
+</project>
